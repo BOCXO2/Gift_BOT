@@ -1,7 +1,7 @@
 from telebot import types
 import telebot
 
-token = 'Your TOKEN'
+token = '6715892969:AAG0qpQdIB5RT_EwzhxKuCJMf4FbnxV7NQ4'
 gift_lists = {}  # Словарь для хранения списков подарков пользователей
 active_commands = {}  # Словарь для хранения активных команд пользователей
 
@@ -80,8 +80,8 @@ def cancel_gift(message):
     if user_id in gift_lists:
         user_gifts = gift_lists[user_id]
         if len(user_gifts) > 0:
-            last_gift = user_gifts.pop()
-            bot.send_message(message.chat.id, text=f"Хотелка '{last_gift}' отменена!")
+            last_gift = user_gifts.remove(message.text)
+            bot.send_message(message.chat.id, text=f"Хотелка '{message.text}' отменена!")
         else:
             bot.send_message(message.chat.id, text="Список хотелок пуст!")
     else:

@@ -1,10 +1,67 @@
-# Gift_BOT
-Greetings, dear user! I am thrilled to introduce you to my Telegram bot, crafted with love and designed to simplify the art of gift-giving.
+<h1 align="center">Gift_BOT - Telegram бот для обмена подарками и управления списками желаний</h1>
 
-My bot is a remarkable companion that helps you effortlessly keep track of gifts, both for yourself and for others. It allows registered users within the Telegram bot community to create personalized gift lists and share them with fellow enthusiasts.
+<p align="center">
+  <em>Бот, созданный для упрощения процесса обмена подарками и ведения списков желаний в Telegram.</em>
+</p>
 
-With my bot by your side, you can easily save and organize your desired gifts, ensuring that you never forget those special treasures. Moreover, you can explore the gift lists of other users, opening up a world of inspiration and transforming the act of gift-giving into a delightful experience.
+## О проекте
 
-Powered by cutting-edge technology, my bot guarantees a seamless and user-friendly interface. Whether you are creating your own wishlist or browsing through others', the process is intuitive and enjoyable.
+<p>
+  Gift_BOT — это Telegram-бот, который помогает пользователям создавать и управлять своими списками желаний, а также делиться ими с другими. Бот позволяет сохранять желаемые подарки, просматривать списки других пользователей и облегчает процесс выбора подарков для друзей и близких.
+</p>
 
-Are you ready to embark on a gift-giving adventure like no other? Join the community and let my Telegram bot be your trusted companion. Together, let's celebrate the joy of giving and receiving gifts in a vibrant and supportive environment.
+## Содержание
+
+<ul>
+  <li><a href="#функциональные-возможности">Функциональные возможности</a></li>
+  <li><a href="#установка">Установка</a></li>
+  <li><a href="#использование">Использование</a></li>
+  <li><a href="#контакты">Контакты</a></li>
+</ul>
+
+## Функциональные возможности
+
+<ul>
+  <li>Создание и управление персональными списками желаний.</li>
+  <li>Просмотр списков желаний других пользователей.</li>
+  <li>Обмен подарками между пользователями.</li>
+  <li>Уведомления о получении новых подарков.</li>
+</ul>
+
+## Установка
+
+<ol>
+  <li>Клонируйте репозиторий:
+    <pre><code>git clone https://github.com/BOCXO2/Gift_BOT.git</code></pre>
+  </li>
+  <li>Перейдите в директорию проекта:
+    <pre><code>cd Gift_BOT</code></pre>
+  </li>
+  <li>Создайте и активируйте виртуальное окружение:
+    <pre><code>python -m venv env
+source env/bin/activate  # Для Windows: env\Scripts\activate</code></pre>
+  </li>
+  <li>Установите необходимые зависимости:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>Создайте файл <code>.env</code> в корневой директории и добавьте ваш токен Telegram-бота:
+    <pre><code>TELEGRAM_TOKEN=ваш_токен</code></pre>
+  </li>
+  <li>Запустите бота:
+    <pre><code>python Gift_BOT.py</code></pre>
+  </li>
+</ol>
+
+## Использование
+
+<ol>
+  <li>Добавьте бота в Telegram и начните с команды <code>/start</code>.</li>
+  <li>Следуйте инструкциям бота для создания и управления вашим списком желаний.</li>
+  <li>Используйте команды бота для просмотра списков других пользователей и обмена подарками.</li>
+</ol>
+
+## Контакты
+
+<p>
+  Если у вас есть вопросы или предложения, пожалуйста, свяжитесь с автором проекта через <a href="https://github.com/BOCXO2">профиль GitHub</a>.
+</p>
